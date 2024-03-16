@@ -7,7 +7,7 @@ import { actionCreators } from '../state/index';
 const Shop = () => {
   const dispatch = useDispatch();
   const actions = bindActionCreators(actionCreators,dispatch);
-  console.log("shop");
+  
 
   return (
     <center>
